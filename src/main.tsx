@@ -1,10 +1,10 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import PiedraPapelTijera from './piedraPapelTijera'
+import  RulesCard  from './components/RulesCard'
 import './index.css'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <PiedraPapelTijera />
+    <RulesCard />
   </StrictMode>,
 )

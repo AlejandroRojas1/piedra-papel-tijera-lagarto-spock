@@ -1,19 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import "tailwindcss";
 
+@theme {
+
+  --font-display: 'Barlow Semi Condensed', sans-serif;
+  --spacing: 1px;
+  --rules-card-height: 20rem;
+  --rules-card-width: 18rem;
+  --margin-height-rules-card: 10dvh;
+
+  /* primary */
+  --Gold600: hsl(28, 76%, 44%);
+  --Gold500: hsl(39, 89%, 49%);
+  --Blue500: hsl(230, 89%, 62%);
+  --Blue700: hsl(229, 64%, 46%);
+  --Red600: hsl(349, 71%, 52%);
+  --Red800: hsl(347, 75%, 35%);
+  --Purple600: hsl(261, 73%, 60%);
+  --Purple700: hsl(261, 51%, 44%);
+  --Lightblue400: hsl(189, 59%, 53%);
+  --Lightblue500: hsl(194, 58%, 42%);
+
+  /* Neutral */
+  --Navy900: hsl(229, 25%, 31%);
+  --Gray600: hsl(246, 11%, 37%);
+
+  /* background */
+  --Radial-Gradient: hsl(214, 47%, 23%), hsl(237, 48%, 15%);
+}
+
 * {
-  font-family: "montserrat";
   box-sizing: border-box;
   min-width: 0;
-  margin: 0;
-  padding: 0;
 }
 
 body {
   min-height: 100dvh;
-  font-size: 16px;
+  background: radial-gradient(circle at top, var(--Radial-Gradient));
+  margin: 0;
+  padding: 0;
 }
 
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
   text-wrap: balance;
 }
 
