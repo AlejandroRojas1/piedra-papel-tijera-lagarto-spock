@@ -24,7 +24,8 @@
   /* Neutral */
   --Navy900: hsl(229, 25%, 31%);
   --Closed-icon: hsla(228, 50%, 14%, 1.00);
-  --Gray600: hsl(246, 11%, 37%);
+  --Gray600: hsl(246, 11%, 37%, 1.00);
+  --Gray400: hsla(245, 25%, 83%, 1.00);
 
   /* background */
   --Radial-Gradient: hsl(214, 47%, 23%), hsl(237, 48%, 15%);
