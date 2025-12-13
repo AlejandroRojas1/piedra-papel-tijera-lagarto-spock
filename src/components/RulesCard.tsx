@@ -2,7 +2,7 @@
 const RulesCard = () => {
   return (
     <>
-      <div className="flex flex-col justify-between items-center h-(--rules-card-height) w-(--rules-card-width) bg-white rounded-lg my-(--margin-height-rules-card) mx-auto">
+      <div className="flex flex-col items-center h-(--rules-card-height) w-(--rules-card-width) bg-white rounded-lg my-(--margin-height-rules-card) mx-auto">
         <span className="flex justify-between items-center w-full px-20 py-15">
           <h2 className="font-bold text-2xl text-(--Navy900)">RULES</h2>
           <span className="hover:cursor-pointer hover:opacity-50">
@@ -11,6 +11,9 @@ const RulesCard = () => {
             </svg>
           </span>
         </span>
+        <div className="w-full flex justify-center items-center">
+          <img src="/images/image-rules-bonus.svg" alt="rules" className="w-[80%]" />
+        </div>
       </div>
     </>
   )
