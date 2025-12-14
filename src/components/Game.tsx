@@ -1,10 +1,10 @@
-import Header from './Header';
+
+
 
 const Game = () => {
+
   return (
-    <>
-        <Header />
-    </>
+    <></>
   )
 }
 

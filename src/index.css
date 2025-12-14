@@ -29,6 +29,7 @@
 
   /* background */
   --Radial-Gradient: hsl(214, 47%, 23%), hsl(237, 48%, 15%);
+  --bg-rules-card: hsla(0, 0%, 2%, 1.00);
 }
 
 * {
