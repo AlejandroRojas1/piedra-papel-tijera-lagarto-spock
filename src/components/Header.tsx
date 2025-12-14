@@ -4,7 +4,7 @@ const score: number = 12;
 const Header = () => {
   return (
     <>
-        <div className="w-[50%] flex border-solid rounded-xl border-(--Gray400) border-2 mx-auto mt-20 p-10 justify-between items-center">
+        <div className="z-50 w-[50%] flex border-solid rounded-xl border-(--Gray400) border-2 mx-auto mt-20 p-10 justify-between items-center">
             <div className="flex flex-col justify-center">
                 <span className="font-bold text-white py-0 my-0 leading-none">ROCK</span> 
                 <span className="font-bold text-white py-0 my-0 leading-none">PAPER</span>
